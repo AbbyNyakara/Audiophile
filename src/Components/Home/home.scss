@@ -4,7 +4,21 @@
   background-color: colors.$main_background;
 }
 
-.navbar_top {
-  padding: 20px;
+
+.main_page {
+  height: 100vh !important;
 }
 
+.navbar_top {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.humbuger_icon {
+  padding-right: 20px;
+}
+
+.cart_icon {
+  margin-left: auto;
+}

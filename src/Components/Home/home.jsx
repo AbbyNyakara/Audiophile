@@ -3,11 +3,11 @@ import './home.scss'
 
 const Home = () => {
   return (
-    <div className='home_background'>
-      <nav className='top navbar_top'>
-       <img src="/images/shared/tablet/icon-hamburger.svg" alt="" />
-       <img src="/images/shared/desktop/logo.svg" alt="" />
-       <img src="/images/shared/desktop/icon-cart.svg" alt="" />
+    <div className='home_background main_page'>
+      <nav className='top navbar_top navbar_nav'>
+       <img src="/images/shared/tablet/icon-hamburger.svg" alt="" className='humbuger_icon ' />
+       <img src="/images/shared/desktop/logo.svg" alt="" className='logo' />
+       <img src="/images/shared/desktop/icon-cart.svg" alt="" className='cart_icon' />
       </nav>
     </div>
   )
