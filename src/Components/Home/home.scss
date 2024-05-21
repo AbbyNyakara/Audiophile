@@ -1,23 +1,16 @@
-@use 'src/styles/_colors.scss';
-
-.home_background {
-  background-color: colors.$main_background;
+.main_img {
+  max-width: 100%; // makes the image to fit to 100% of the width provided: 
+  height: auto ; 
 }
 
-.main_page {
-  height: 100vh !important;
+.home_page {
+  position: relative;
+  text-align: center;
 }
 
-.navbar_top {
-  padding: 30px;
-  align-items: center;
-  display: flex;
-}
-
-.humbuger_icon {
-  padding-right: 3rem;
-}
-
-.cart_icon {
-  margin-left: auto;
+.intro_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
