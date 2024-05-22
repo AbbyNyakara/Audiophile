@@ -1,11 +1,9 @@
-import Nav from "./Components/Nav/Nav";
-import Home from "./Components/Home/Home";
+import Home from "./Components/Hero/Hero";
 import './index.scss';
 
 const App = () => {
   return(
     <div className="">
-      <Nav />
       <Home/>
     </div>
   )

@@ -1,0 +1,41 @@
+
+
+.hero {
+  background-image: url("images/home/mobile/image-header.jpg");
+  height: 100vh !important;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+
+.main_img {
+  max-width: 100%; // makes the image to fit to 100% of the width provided: 
+  //height: auto ; 
+}
+
+.home_page {
+  position: relative;
+  text-align: center;
+}
+
+.intro_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar_top {
+  padding: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.humbuger_icon {
+  padding-right: 3rem;
+}
+
+.cart_icon {
+  margin-left: auto;
+}
