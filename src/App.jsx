@@ -1,10 +1,10 @@
-import Home from "./Components/Home/home";
+import Home from "./Components/Hero/Hero";
 import './index.scss';
 
 const App = () => {
   return(
     <div className="">
-      <Home />
+      <Home/>
     </div>
   )
 }
