@@ -1,4 +1,5 @@
-
+@use '../../styles/colors' as colors;
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 .hero {
   background-image: url("images/home/mobile/image-header.jpg");
@@ -8,23 +9,7 @@
   width: 100vw;
   background-repeat: no-repeat;
 }
-
-.main_img {
-  max-width: 100%; // makes the image to fit to 100% of the width provided: 
-  //height: auto ; 
-}
-
-.home_page {
-  position: relative;
-  text-align: center;
-}
-
-.intro_text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+// Navbar Section :
 
 .navbar_top {
   padding: 30px;
@@ -38,4 +23,52 @@
 
 .cart_icon {
   margin-left: auto;
+}
+
+// Hero-text section: 
+
+.hero_section {
+  text-align: center;
+  font-family: "Reddit Sans", sans-serif;
+  color: colors.$text_color;
+}
+
+.hero_section{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+}
+
+.hero_main_text {
+  opacity: 50%;
+  letter-spacing: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.hero_text {
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+.hero_description {
+  line-height: 1.5rem;
+}
+
+.see_more {
+  margin-top: 2rem;
+}
+
+.see_more button {
+  background-color: #d87d4a;
+  padding: 15px 20px;
+  border: none;
+  text-transform: uppercase;
+  font-family: inherit;
+  color: inherit;
+  letter-spacing: 0.2rem;
 }

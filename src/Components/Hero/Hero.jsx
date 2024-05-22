@@ -12,12 +12,12 @@ const Home = () => {
       </div>
 
       <div className="hero_section">
-        <div className="intro_text">
-          <h1>new product</h1>
-          <p>XX99 mark ii headphones</p>
-          <p>Experience natural,lifelike audio and exceptional build quality made for the 
+        <div >
+          <h1 className="hero_main_text">new product</h1>
+          <p className='hero_text'>XX99 mark ii <span>headphones</span> </p>
+          <p className='hero_description'>Experience natural,lifelike audio and exceptional build quality made for the 
             passionate music enthusiast </p>
-          <a><button>see product</button></a>
+          <a className='see_more'><button>see product</button></a>
         </div>
       </div>
     </div>
