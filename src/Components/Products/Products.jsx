@@ -4,7 +4,7 @@ import './products.scss'
 const Products = () => {
   return (
     <div>
-      <ProductCard />
+      <ProductCard image='' product='headphones' />
     </div>
   )
 }
