@@ -12,7 +12,7 @@ const ProductCard = () => {
     <div>
       <img src={this.props.image} alt="" />
       <h2>{this.props.product}</h2>
-      <a href={this.props.link}>Link</a>
+      <a href={this.props.link}>Shop</a>
     </div>
   )
 }
