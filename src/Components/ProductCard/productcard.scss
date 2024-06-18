@@ -1,0 +1,9 @@
+@import '../../styles/mixins';
+
+.product_card {
+  // justify-content: center;
+  // align-items: center;
+  place-items: center;
+  display: flex;
+  flex-direction: column;
+}
