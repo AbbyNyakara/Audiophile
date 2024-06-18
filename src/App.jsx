@@ -2,7 +2,7 @@
 
 import Home from "./Components/Hero/Hero";
 //import Products from "./Components/Products/Products";
-import ProductCard from "./Components/ProductCard/ProductCard";
+//import ProductCard from "./Components/ProductCard/ProductCard";
 import './index.scss';
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
     <div className="">
       <Home/>
       {/* <Products /> */}
-      <ProductCard />
+      {/* <ProductCard /> */}
     </div>
   )
 }
