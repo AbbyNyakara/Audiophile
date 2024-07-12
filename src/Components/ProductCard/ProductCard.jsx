@@ -4,9 +4,9 @@ import './productcard.scss';
 const ProductCard = (props) => {
   return (
     <div className='product_card'>
-      <img src={props.image} alt="Headphones" />
-      <h2>{props.product}</h2>
-      <a href={props.link}>Shop</a>
+      <img src={props.image} alt="Headphones" className='product_card_image' />
+      <h2 className='product_card_name'>{props.product}</h2>
+      <a href={props.link} className='product_card_link'>Shop</a>
     </div>
   )
 }
