@@ -1,0 +1,14 @@
+// Import the css files
+@use '../../styles/colors';
+
+
+.zx9-speaker {
+  display: flex;
+  flex-direction: column;
+  background: colors.$orange_color;
+  margin: 2rem;
+  padding: 2rem 1rem;
+  border-radius: 6px;
+  place-items: center;
+  text-align: center;
+}
