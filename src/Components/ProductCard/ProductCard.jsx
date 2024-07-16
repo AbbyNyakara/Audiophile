@@ -1,28 +1,24 @@
 import PropTypes from 'prop-types';
 import './productcard.scss';
 
-// Temporary imports 
-import headphonesImg from '/images/shared/desktop/image-category-thumbnail-headphones.png';
-//import speakerImg from '/images/shared/desktop/image-category-thumbnail-speakers.png';
-//import earphonesImg from '/images/shared/desktop/image-category-thumbnail-earphones.png';
-
-ProductCard.PropTypes = {
-  image: PropTypes.string,
-  product: PropTypes.string,
-  link: PropTypes.string
-}
-
-const ProductCard = () => {
+const ProductCard = (props) => {
   return (
-    <div>
-      {/* <img src={this.props.image} alt="" />
-      <h2>{this.props.product}</h2>
-      <a href={this.props.link}>Shop</a> */}
-      <img src={headphonesImg} alt="Headphones" />
-      <h2>Headphones</h2>
-      <a href="#">Shop</a>
+    <div className='product_card'>
+      <img src={props.image} alt="Headphones" className='product_card_image' />
+      <h2 className='product_card_name'>{props.product}</h2>
+      <div className='link'>
+        <a href={props.link} className='product_card_link'>Shop</a>
+        <img src="/images/shared/desktop/icon-arrow-right.svg" alt="" />
+      </div>
+      
     </div>
   )
 }
+
+ProductCard.propTypes = {
+  image: PropTypes.string.isRequired,
+  product: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+};
 
 export default ProductCard;

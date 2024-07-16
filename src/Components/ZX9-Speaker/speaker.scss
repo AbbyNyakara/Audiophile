@@ -1,0 +1,38 @@
+// Import the css files
+@use '../../styles/colors';
+
+.zx9-speaker {
+  display: flex;
+  flex-direction: column;
+  background: colors.$orange_color;
+  margin: 2rem;
+  padding: 2rem 0.5rem;
+  border-radius: 6px;
+  place-items: center;
+  text-align: center;
+  color: colors.$text_color;
+}
+
+.zx9-speaker-image {
+  width: auto;
+  height: 200px;
+}
+
+.zx9-speaker-title {
+  font-size: 3.5rem;
+}
+
+.zx9-speaker-description {
+  opacity: 70%;
+  padding-bottom:0rem;
+}
+
+.zx9-speaker-button {
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  color: inherit;
+  border: none;
+  background-color: colors.$default_black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

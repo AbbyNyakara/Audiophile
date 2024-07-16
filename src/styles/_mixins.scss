@@ -1,0 +1,13 @@
+
+@mixin center($axis: both) {
+  @if $axis == 'both' or $axis == 'horizontal' {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @if $axis == 'both' or $axis == 'vertical' {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+}

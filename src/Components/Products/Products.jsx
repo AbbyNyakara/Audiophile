@@ -8,10 +8,24 @@ import earphonesImg from '/images/shared/desktop/image-category-thumbnail-earpho
 
 const Products = () => {
   return (
-    <div>
-      <ProductCard image = { headphonesImg }  product= 'headphones' link='#' />
-      <ProductCard image = { speakerImg }  product= 'speakers' link='#' />
-      <ProductCard image = { earphonesImg }  product= 'earphones' link='#' />
+    <div className='products_display'>
+      <ProductCard 
+      image={headphonesImg}
+      product="Headphones"
+      link="#"
+       />
+      
+      <ProductCard 
+      image = {speakerImg}
+      product="Speakers"
+      link="#"
+      />
+
+      <ProductCard 
+      image = {earphonesImg}
+      product="Earphones"
+      link='#'
+      />
     </div>
   )
 }
