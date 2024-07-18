@@ -4,6 +4,7 @@ import Products from "./Components/Products/Products";
 import Speaker from "./Components/ZX9-Speaker/Speaker";
 import Zx7Speaker from "./Components/ZX7-Speaker/zx7-Speaker";
 import './index.scss';
+import Earbuds from "./Components/Earbuds/Earbuds";
 
 const App = () => {
   return(
@@ -12,6 +13,7 @@ const App = () => {
       <Products /> 
       <Speaker />
       <Zx7Speaker />
+      <Earbuds />
     </div>
   )
 }

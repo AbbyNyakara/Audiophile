@@ -1,1 +1,33 @@
 //import zx7Speaker from '/images/home/mobile/image-speaker-zx7.jpg'
+@use '../../styles/colors';
+
+.zx7-speaker {
+  min-height: 300px;  
+  margin: 2rem;
+  // display: grid; // this places the items so far apart: 
+  // place-items: center;
+  background-image: url('/images/home/mobile/image-speaker-zx7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.zx7-speaker-title {
+  letter-spacing: 2px;
+  text-transform: uppercase; 
+  padding: 3rem 0 0 2.5rem;
+  font-size: 2rem;
+}
+
+.zx7-speaker-button {
+  margin-left: 2.5rem;
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  color: colors.$default_black;
+  border: 1px solid colors.$default_black;
+  background-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+
