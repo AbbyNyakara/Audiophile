@@ -1,6 +1,10 @@
 //import zx7Speaker from '/images/home/mobile/image-speaker-zx7.jpg'
 @use '../../styles/colors';
 
+* {
+  box-sizing: border-box;
+}
+
 .zx7-speaker {
   min-height: 300px;  
   margin: 2rem;
@@ -10,6 +14,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .zx7-speaker-title {
