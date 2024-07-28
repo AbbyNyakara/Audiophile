@@ -1,0 +1,23 @@
+@use '../../styles/colors';
+
+.gear {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 2rem;
+
+  &__title {
+    color: colors.$header_text;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    line-height: 3rem;
+  }
+
+  &__description {
+    opacity: 60%;
+    line-height: 1.5rem;
+  }
+
+  span {
+    color: colors.$orange_color;
+  }
+}

@@ -1,14 +1,11 @@
 .gear {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 2rem;
   box-sizing: border-box;
   
   &__image {
     max-width: 100%;
     height: auto;
-    object-fit: cover; // Adjusts the image to fit within its container
-    border-radius: 5px; // Optional: Add border-radius for rounded corners
+    object-fit: cover; 
+    border-radius: 5px;
   }
 }

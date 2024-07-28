@@ -7,6 +7,7 @@ import './index.scss';
 import Earbuds from "./Components/Earbuds/Earbuds";
 import YX1Speaker from "./Components/YX1-Speaker/YX1Speaker";
 import About from "./Components/About/About";
+import Gear from "./Components/Gear/Gear";
 
 const App = () => {
   return(
@@ -18,6 +19,7 @@ const App = () => {
       <Earbuds />
       <YX1Speaker />
       <About />
+      <Gear />
     </div>
   )
 }
