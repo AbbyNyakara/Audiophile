@@ -8,10 +8,11 @@ import Earbuds from "./Components/Earbuds/Earbuds";
 import YX1Speaker from "./Components/YX1-Speaker/YX1Speaker";
 import About from "./Components/About/About";
 import Gear from "./Components/Gear/Gear";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return(
-    <div className="">
+    <div>
       <Home/>
       <Products /> 
       <Speaker />
@@ -20,6 +21,7 @@ const App = () => {
       <YX1Speaker />
       <About />
       <Gear />
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,9 @@
+@use '../../styles/colors';
+
+.footer {
+  background-color: colors.$header_text;
+  color: colors.$text_color;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
